@@ -1,11 +1,14 @@
 public class CotizadorController {
   @AuraEnabled(cacheable=true)
   public static List<Tela__c> getTelas(String tipoTela) {
-    return [
-      SELECT Id, Name, Tipo__c, Precio__c, PrecioIVA__c, PrecioSinFactura__c
-      FROM Tela__c
-      WHERE Tipo__c = :tipoTela
-    ];
+    if (!String.isEmpty(tipoTela)) {
+      return [
+        SELECT Id, Name, Tipo__c, Precio__c, PrecioIVA__c, PrecioSinFactura__c
+        FROM Tela__c
+        WHERE Tipo__c = :tipoTela
+      ];
+    }
+    return new List<Tela__c>();
   }
 
   @AuraEnabled(cacheable=true)
