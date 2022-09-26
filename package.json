@@ -37,5 +37,9 @@
     "**/{aura,lwc}/**": [
       "eslint"
     ]
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "jsforce": "^1.11.0"
   }
 }

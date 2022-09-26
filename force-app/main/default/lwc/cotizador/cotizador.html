@@ -1,0 +1,174 @@
+<template>
+  <lightning-card
+    variant="Narrow"
+    title="Cotizador"
+    icon-name="standard:account"
+  >
+    <lightning-input
+      type="number"
+      label="Ganancia"
+      slot="actions"
+      value={ganancia}
+      formatter="percent"
+      step="0.01"
+      onchange={handleGanancia}
+    ></lightning-input>
+
+    <div class="slds-p-horizontal_small">
+      <div class="slds-section slds-is-open">
+        <h3 class="slds-section__title slds-theme_shade">
+          <span class="slds-truncate slds-p-horizontal_small" title="Articulo"
+            >Articulo</span
+          >
+        </h3>
+        <div aria-hidden="false" class="slds-section__content">
+          <div class="slds-grid slds-gutters slds-grid_vertical-align-end">
+            <div class="slds-col slds-size_1-of-6">
+              <lightning-combobox
+                name="progress"
+                label="Tipo Tela"
+                value={tipoTela}
+                placeholder="Seleccionar Tipo"
+                options={picklistValues}
+                onchange={handleTipoTela}
+              >
+              </lightning-combobox>
+            </div>
+            <div class="slds-col slds-size_1-of-4">
+              <lightning-combobox
+                name="progress"
+                label="Telas"
+                value={tela}
+                placeholder="Seleccionar Tela"
+                options={telas}
+                disabled={showTelas}
+                onchange={handleTela}
+              >
+              </lightning-combobox>
+            </div>
+            <div class="slds-col slds-size_1-of-4">
+              <lightning-combobox
+                name="progress"
+                label="Mecanismos"
+                value={mecanismo}
+                placeholder="Seleccionar Mecanismos"
+                disabled={showMecanismos}
+                options={mecanismos}
+                onchange={handleMecanismo}
+              >
+              </lightning-combobox>
+            </div>
+            <div class="slds-col">
+              <lightning-input
+                type="number"
+                label="Cantidad"
+                value={cantidad}
+                disabled={showInputs}
+                onchange={handleCantidad}
+              ></lightning-input>
+            </div>
+            <div class="slds-col">
+              <lightning-input
+                type="number"
+                label="Ancho"
+                step=".01"
+                value={ancho}
+                disabled={showInputs}
+                onchange={handleAncho}
+              ></lightning-input>
+            </div>
+            <div class="slds-col">
+              <lightning-input
+                type="number"
+                label="Alto"
+                step=".01"
+                value={alto}
+                disabled={showInputs}
+                onchange={handleAlto}
+              ></lightning-input>
+            </div>
+            <div class="slds-col">
+              <lightning-input
+                type="number"
+                label="Colocacion"
+                step=".01"
+                value={colocacion}
+                disabled={showInputs}
+                onchange={handleColocacion}
+              ></lightning-input>
+            </div>
+            <div class="slds-col">
+              <lightning-button
+                label="Agregar"
+                onclick={handleAgregar}
+                disabled={showAdd}
+                class="slds-m-left_x-small"
+              ></lightning-button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slds-p-top_large slds-p-horizontal_small">
+      <div class="slds-section slds-is-open">
+        <h3 class="slds-section__title slds-theme_shade">
+          <span class="slds-truncate slds-p-horizontal_small" title="Costos"
+            >Detalle</span
+          >
+        </h3>
+        <div aria-hidden="false" class="slds-section__content">
+          <div>
+            <lightning-datatable
+              key-field="id"
+              show-row-number-column
+              hide-checkbox-column
+              data={ventanas}
+              columns={columns}
+              onsave={handleEditCantidad}
+              oncellchange={handleChangeCantidad}
+              onrowaction={handleRowAction}
+            >
+            </lightning-datatable>
+            <div slot="footer">
+              <div
+                class="slds-p-top_large slds-grid slds-gutters slds-grid_align-center"
+              >
+                <div class="slds-col">
+                  <span class="slds-badge slds-theme_warning"
+                    >Total sin Factura
+                    <lightning-formatted-number
+                      class="slds-p-left_x-small"
+                      value={totalSinFactura}
+                      format-style="currency"
+                    ></lightning-formatted-number>
+                  </span>
+                </div>
+                <div class="slds-col">
+                  <span class="slds-badge slds-theme_success"
+                    >Total con Factura
+                    <lightning-formatted-number
+                      class="slds-p-left_x-small"
+                      value={totalConFactura}
+                      format-style="currency"
+                    ></lightning-formatted-number>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div slot="footer">
+          <lightning-button
+            label="Guardar Cotizacion"
+            title="Guardar Cotizacion"
+            onclick={handleGuardarCotizacion}
+            class="slds-m-left_small"
+            disabled={showGuardar}
+          ></lightning-button>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>

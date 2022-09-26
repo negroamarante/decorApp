@@ -1,0 +1,36 @@
+﻿Tipo__c,Name,AnchoMaximo__c,UnidadMedida__c,Precio__c,PrecioSinFactura__c,PrecioIVA__c
+Cristal,Cristal Nacional 140 Micrones,1.4,M2,1117,1234.29,1352
+Cristal,Cristal Premium 140 Micrones,1.4,M2,1955,2160.28,2366
+Blackout,Black-Out Basic - PVC & Fibra de vidrio - 4 capas,1.83,M2,1780,1966.9,2154
+Blackout,Black-Out Basic - PVC & Fibra de vidrio - 4 capas,2.5,M2,1780,1966.9,2154
+Blackout,Black-Out Basic - PVC & Fibra de vidrio - 4 capas,3,M2,3749,4142.65,4536
+Blackout,Black-Out Berlin,2.5,M2,3600,3978,4356
+Blackout,Black-Out Darwin,2.8,M2,5159,5700.7,6242
+Blackout,Black-Out Hampton,2.8,M2,5411,5979.16,6547
+Blackout,Black-Out Mexico,2.8,M2,5664,6258.72,6853
+Blackout,Black-Out Mombassa,3,M2,5865,6480.83,7097
+Blackout,Black-Out Tricapa Blanco PROMO (Hasta Agotar Stock),1.83,M2,1295,1430.98,1567
+Blackout,Black-Out Luxor Bronze PROMO (Hasta Agotar Stock),2.8,M2,2427,2681.84,2937
+Blackout,Black-Out Texturizado Beige PROMO (Hasta Agotar Stock),1.95,M2,2427,2681.84,2937
+Sunscreen,Screen Amazon 4%,3,M2,6067,6704.04,7341
+Sunscreen,Screen Essential 3001 1%,2.5,M2,4853,5362.57,5872
+Sunscreen,Screen Essential 3001 1%,3,M2,6270,6928.35,7587
+Sunscreen,Screen Essential 3005 5%,2.5,M2,3733,4124.97,4517
+Sunscreen,Screen Essential 3005 5%,3,M2,4822,5328.31,5835
+Sunscreen,Screen Essential 3010 10%,2.5,M2,3640,4022.2,4404
+Sunscreen,Screen Essential 3010 10%,3,M2,4853,5362.57,5872
+Sunscreen,Screen Linen 5%,2.5,M2,6248,6904.04,7560
+Sunscreen,Screen 5% Fibra de vidrio,3,M2,4651,5139.36,5628
+Traslucidas,Translucidas Berlin,2.5,M2,2185,2414.43,2644
+Traslucidas,Translucidas Dali,2,M2,2488,2749.24,3010
+Traslucidas,Translucidas Hampton,2.8,M2,4045,4469.73,4894
+Traslucidas,Translucidas Lagoa,2,M2,2488,2749.24,3010
+Transparente,Transparente Esvedra,2.8,M2,3236,3575.78,3916
+Transparente,Transparente Lyon (Discontinuada - Consultar Stock),2.4,M2,4005,4425.53,4846
+Transparente,Transparente Mombassa,3,M2,4045,4469.73,4894
+Transparente,Transparente Nairobi,2.8,M2,5664,6258.72,6853
+Transparente,Transparente Richmond (Tejido de Trevira®),3,M2,5461,6034.41,6608
+Transparente,Transparente Salvador (Tejido de Trevira®),2.4,M2,6673,7373.67,8074
+Transparente,Transparente Gasa Europea - Grupo 1 (# 1-2-7) (Hasta Agotar Stock),2,M2,3640,4022.2,4404
+Transparente,Transparente Gasa Europea - Grupo 2 (# 6) (Hasta Agotar Stock),2,M2,4853,5362.57,5872
+Transparente,Transparente Gasa Europea - Grupo 3 (# 4-5-9-10-11-12) (Hasta Agotar S,2,M2,5664,6258.72,6853

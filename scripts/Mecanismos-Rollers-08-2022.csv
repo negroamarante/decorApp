@@ -1,0 +1,16 @@
+﻿Tipo__c,Name,UnidadMedida__c,Precio__c,PrecioSinFactura__c,PrecioIVA__c,AnchoMaximo__c,AltoMaximo__c,SuperficieMaxima__c
+Roller,Mecanismo 32mm Ref - Cadena Plastica Blanco,Metro Lineal,2598,2870.79,3144,1.8,2,3
+Roller,Mecanismo 32mm Ref - Cadena Plastica Gris,Metro Lineal,2598,2870.79,3144,1.8,2,3
+Roller,Mecanismo 32mm Ref - Cadena Plastica Beige,Metro Lineal,2598,2870.79,3144,1.8,2,3
+Roller,Mecanismo 32mm Ref - Cadena Plastica Negro,Metro Lineal,2598,2870.79,3144,1.8,2,3
+Roller,Mecanismo 32mm Ref - Cadena Metalica,Metro Lineal,2799,3092.90,3387,1.8,2,3
+Roller,Mecanismo 38mm Ref - Cadena Plastica Blanco,Metro Lineal,2906,3211.13,3516,2.6,2.6,5
+Roller,Mecanismo 38mm Ref - Cadena Plastica Gris,Metro Lineal,2906,3211.13,3516,2.6,2.6,5
+Roller,Mecanismo 38mm Ref - Cadena Plastica Beige,Metro Lineal,2906,3211.13,3516,2.6,2.6,5
+Roller,Mecanismo 38mm Ref - Cadena Plastica Negro,Metro Lineal,2906,3211.13,3516,2.6,2.6,5
+Roller,Mecanismo 38mm Ref - Cadena Metalica,Metro Lineal,3194,3529.37,3865,2.6,2.6,5
+Roller,Mecanismo 50mm Tubo Ref - Cadena Plastica Blanco,Metro Lineal,3888,4296.24,4704,3,2.2,6.6
+Roller,Mecanismo 50mm Tubo Ref - Cadena Metalica,Metro Lineal,4414,4877.47,5341,3,2.2,6.6
+Roller,Mecanismo 63mm Tubo Ref - Cadena Plastica Blanco,Metro Lineal,6067,6704.04,7341,3.4,2.6,8
+Roller,Mecanismo 63mm Tubo Ref - Cadena Metalica,Metro Lineal,6067,6704.04,7341,3.4,2.6,8
+Roller,Mecanismo 63mm Tubo Ref - Cadena Plastica Negro,Metro Lineal,6067,6704.04,7341,3.4,2.6,8

@@ -1,6 +1,7 @@
 {
   "orgName": "damarante company",
   "edition": "Developer",
+  "language": "US",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
